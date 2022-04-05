@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&family=Rubik+Bubbles&display=swap');
+
+
+body{
+font-family:'Poboto',sans-serif ; 
+font-size: 16px;
+font-weight: 500;
+color: #2c3547c4;
+background: #f1f1f1;
+
+}
+h1{
+  font-family: 'Rubik Bubbles', cursive;sans-serif;
+  font-weight: 50;
+}
+P{
+  font-style: italic;
+  font-size: 20;
+  font-weight: bold;
+}
+h3{
+  color: #2c3547c4;
+}
+.cont{
+  max-width: 750px;
+  margin: auto;
+  background: #e3eaf0;
+
+}
+.avatar{
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35);
+}
+.card {
+  max-width: 90%;
+  background: #e3eaf0;
+  margin-bottom: 20px;
+}
+a{
+  color: #2c3547c4;
+  background: #e3eaf0;
+  text-decoration: none;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  color: blue;
+}
+a:visited{
+  color:rgb(33, 42, 17);
+}
+.btn{
+  background: #2c3547c4;
+  border: 1px;
+  padding: 15px 20px;
+  color: #e3eaf0;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+  /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35); */
+  
+}
+.btn:hover{
+  opacity: .7;
+  font-weight: bold;
+
+
+}
