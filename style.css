@@ -11,7 +11,7 @@ background: #f1f1f1;
 
 }
 h1{
-  font-family: 'Rubik Bubbles', cursive;sans-serif;
+  font-family: 'Rubik Bubbles', cursive, sans-serif;
   font-weight: 50;
 }
 P{
@@ -25,10 +25,14 @@ h3{
 .cont{
   max-width: 750px;
   margin: auto;
+  padding-top: 10px;
   background: #e3eaf0;
 
 }
 .avatar{
+  display: block;
+  margin: 10px;
+  padding: 2px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35);
 }
 .card {
@@ -65,6 +69,60 @@ a:visited{
 .btn:hover{
   opacity: .7;
   font-weight: bold;
+}
+header{
+  display: inline-block;
+}
+.form h3{
+  text-align: center;
 
+}
+.form-group label {
+display: block;
+font-size: 16px;
+margin: 0 10px 0;
+}
+.form-group input, textarea{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  background: transparent;
+  color: #000;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  border-bottom: 1px solid #b4bdca ;
+}
+.form-row{
+  margin-bottom: 5px;
+  display: flex;
+}
+.form-row .form-group{
+  margin-right: 10px;
+  width: 50%;
+}
+@media(max-width:650px){
+  .form-row{
+    display: block;
+  }
+  .form-row .form-group{
+    width: 100%;
+}
+.info{
+  display: flex;
 
+}
+.info-text{
+  margin-left: 40px;
+}
+.info-contact{
+  text-align:center;
+}
+.info-contact ol{
+  text-align: left;
+}  
+@media(max-width:650px  ){
+  .info{
+    display: block;
+  }
 }
